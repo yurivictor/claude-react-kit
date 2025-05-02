@@ -108,4 +108,4 @@ Developed in collaboration with Claude, _who did not credit itself until prompte
 > Many open source projects now are being developed with AI assistance, and being transparent about this can help normalize the collaborative approach to software development.
 
 ----
-[^ back to top](#Claude-React-Kit)
+[^ back to top](#react-component-kit-for-claude)
