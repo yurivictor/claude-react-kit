@@ -1,0 +1,16 @@
+import{r as d,j as e}from"./index-B25euXJL.js";import{l as g,B as h,X as p,Y as u,m as y,n as x,R as j,o as b,T as v,p as C}from"./createLucideIcon-vSKGjtN4.js";var N=g({chartName:"BarChart",GraphicalChild:h,defaultTooltipEventType:"axis",validateTooltipEventTypes:["axis","item"],axisComponents:[{axisType:"xAxis",AxisComp:p},{axisType:"yAxis",AxisComp:u}],formatAxisMap:y});/**
+ * @license lucide-react v0.503.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const f=[["path",{d:"M5 12h14",key:"1ays0h"}]],k=x("minus",f);/**
+ * @license lucide-react v0.503.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const M=[["path",{d:"M5 12h14",key:"1ays0h"}],["path",{d:"M12 5v14",key:"s699le"}]],D=x("plus",M);/**
+ * @license lucide-react v0.503.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const T=[["path",{d:"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8",key:"1357e3"}],["path",{d:"M3 3v5h5",key:"1xhq8a"}]],w=x("rotate-ccw",T),A=({initialValue:n,label:l,onValueChange:s})=>{const[r,o]=d.useState(n),c=()=>{const a=r+1;o(a),s(a)},t=()=>{const a=r-1;o(a),s(a)};return e.jsxs("div",{className:"flex flex-col items-center p-4 border rounded-lg bg-gray-50",children:[e.jsx("span",{className:"text-gray-700 mb-2",children:l}),e.jsxs("div",{className:"flex items-center",children:[e.jsx("button",{onClick:t,className:"p-2 bg-red-100 rounded-full hover:bg-red-200",children:e.jsx(k,{size:16,className:"text-red-500"})}),e.jsx("span",{className:"mx-4 text-2xl font-semibold",children:r}),e.jsx("button",{onClick:c,className:"p-2 bg-green-100 rounded-full hover:bg-green-200",children:e.jsx(D,{size:16,className:"text-green-500"})})]})]})},m=[{name:"Category A",value:10},{name:"Category B",value:15},{name:"Category C",value:7},{name:"Category D",value:20}],B=()=>{const[n,l]=d.useState(m),[s,r]=d.useState(!1),o=(t,a)=>{const i=[...n];i[t].value=a,l(i)},c=()=>{l([...m])};return e.jsxs("div",{className:`p-6 rounded-lg ${s?"bg-gray-800 text-white":"bg-white text-gray-800"}`,children:[e.jsxs("div",{className:"flex justify-between items-center mb-6",children:[e.jsx("h2",{className:"text-2xl font-bold",children:"TypeScript Example"}),e.jsxs("div",{className:"flex space-x-2",children:[e.jsxs("button",{onClick:c,className:"flex items-center px-3 py-2 rounded bg-blue-100 hover:bg-blue-200 text-blue-700",children:[e.jsx(w,{size:16,className:"mr-1"}),"Reset Data"]}),e.jsx("button",{onClick:()=>r(!s),className:`px-4 py-2 rounded ${s?"bg-gray-600":"bg-gray-200"}`,children:s?"Light Mode":"Dark Mode"})]})]}),e.jsx("div",{className:"grid grid-cols-1 md:grid-cols-4 gap-4 mb-6",children:n.map((t,a)=>e.jsx(A,{initialValue:t.value,label:t.name,onValueChange:i=>o(a,i)},t.name))}),e.jsx("div",{className:"h-64",children:e.jsx(j,{width:"100%",height:"100%",children:e.jsxs(N,{data:n,margin:{top:5,right:30,left:20,bottom:5},children:[e.jsx(b,{strokeDasharray:"3 3"}),e.jsx(p,{dataKey:"name"}),e.jsx(u,{}),e.jsx(v,{}),e.jsx(C,{}),e.jsx(h,{dataKey:"value",fill:s?"#8884d8":"#4C1D95"})]})})})]})};export{B as default};
