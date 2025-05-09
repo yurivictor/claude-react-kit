@@ -1,6 +1,12 @@
-const fs = require('fs');
-const path = require('path');
-const readline = require('readline');
+// add-component.js - A helper script to add components to the registry
+import fs from 'fs';
+import path from 'path';
+import readline from 'readline';
+import { fileURLToPath } from 'url';
+
+// Get the directory name
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const rl = readline.createInterface({
   input: process.stdin,

@@ -1,6 +1,11 @@
 // list-components.js - A helper script to list all registered components
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Get the directory name
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Function to list all components in the registry
 function listComponentsInRegistry() {

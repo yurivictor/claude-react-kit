@@ -58,7 +58,7 @@ const ComponentList = () => {
   // In a real app, this would be dynamically generated
   const componentList = [
     "ExampleComponent",
-    "TypeScriptExample",
+    "TypeScriptExample"
     // Add the names of your other components here
   ];
 
